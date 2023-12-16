@@ -14,9 +14,9 @@ def code_review(file):
     """Generate a code review for the file based on file content"""
 
     prompt = """
-    You will receive a file's contents as text.
-    Generate a code review for the file. Indicate what changes should be made to improve the the style, performance, readability, and maintainability.
-    Suggest any reputable libraries that can be used to improve the code. For each suggested change, include line numbers.
+        You will receive a file's contents as text.
+        Generate a code review for the file. Indicate what changes should be made to improve the the style, performance, readability, and maintainability.
+        Suggest any reputable libraries that can be used to improve the code. For each suggested change, include line numbers.
     """
 
     file_content = parse_file_contents(file)
